@@ -1,0 +1,432 @@
+===============================================================================
+ PORTFOLIO QUEST — INFORMATION FORM
+===============================================================================
+
+ Fill in the values between the [ ] brackets. Keep the brackets or delete
+ them, either is fine — I only read what is inside them.
+
+ HOW TO USE
+   1. Replace every [ ... ] placeholder with your own value.
+   2. Leave a line exactly as it is if you want me to keep the current text.
+   3. Write SKIP inside the brackets to drop that item entirely.
+   4. Save the file and tell me it is done. I will wire all of it into
+      src/content/portfolio.ts and index.html.
+
+ MARKERS
+   (REQUIRED) — the site shows an obvious placeholder until you fill it.
+   (OPTIONAL) — has a sensible default; safe to leave alone.
+   (REPEATABLE) — copy the whole block to add more, delete a block for fewer.
+
+ NOTE ON LENGTH
+   Where a field says "one line" or "two sentences", please stay near that.
+   The panels are small, GBA-styled boxes; long paragraphs overflow into a
+   scroll and read badly.
+
+===============================================================================
+ SECTION 1 — TRAINER CARD   (REQUIRED)
+===============================================================================
+ Shown on the title screen, the photo frame in your house, the contact
+ panel and the plain-text version of the site.
+
+ FULL NAME                 [    SUJAL PRADEEP WARKE                            ]
+   e.g. Sujal Warke
+
+ GITHUB HANDLE             [    https://github.com/sujalwarke28            ]
+   Just the username, no URL. e.g. sujalwarke
+
+ ROLE / TITLE              [      Full Stack Developer                                      ]
+   One short line. e.g. Full-Stack Developer  /  CS Undergrad & Builder
+
+ TAGLINE                   [                                               ]
+   One line, max ~90 characters. The single sentence you want a recruiter
+   to remember. e.g. I build small, fast things and care about how they feel.
+
+ LOCATION                  [         Mumbai, Maharashtra, India                                      ]
+   e.g. Pune, India
+
+===============================================================================
+ SECTION 2 — YOUR PHOTO   (REQUIRED)
+===============================================================================
+ Hangs in a frame on the wall of your house in the game.
+
+ FILE
+   Save your photo yourself at:   public/photo/me.jpg
+   Square-ish works best (it centre-crops to a square). 400x400 or larger.
+   PNG is fine — if you use one, write the filename below.
+
+ PHOTO FILENAME            [ me.jpg                                        ]
+
+ IS THE FILE IN PLACE?     [ yes                                  ]
+
+ ALT TEXT                  [      Sujal Warke in Blue Suit                                         ]
+   For screen readers. e.g. Photograph of Sujal Warke at a desk
+
+ CAPTION                   [     Sujal Warke                                          ]
+   Shown under the photo. Usually just your name.
+
+ FOOTNOTE                  [   Open To Work                                            ]
+   Smaller line under the caption. Can be anything — a joke, the year the
+   photo was taken, or your current status. e.g. Final-year CS, open to work
+
+===============================================================================
+ SECTION 3 — SKILLS   (REQUIRED)
+===============================================================================
+ Four groups by default, shown as RPG stat sheets in the Skill Centre.
+
+ ABOUT "LEVEL"
+   A number from 0 to 100. It only sets the length of the stat bar.
+   Please vary them honestly — a wall of 90s and 95s reads as noise.
+   Rough guide: 90+ = could teach it, 70s = comfortable and shipping,
+   50s = can work in it with docs open, 30s = have touched it.
+
+ ABOUT "ICON"
+   One character or emoji used as the group's badge. Current set uses
+   ◆ ▲ ■ ★. Other options: ✦ ✧ ● ◈ ⬢ ⚙ 🧠 🛠 🎮 🗄 — or your own.
+
+ -------------------------------------------------------------------- GROUP 1
+ (REPEATABLE — copy a whole GROUP block to add a fifth group)
+
+ GROUP NAME                [ Languages                                     ]
+ ICON                      [ ◆                                             ]
+ BLURB                     [                                               ]
+   One line about how you pick a language for a job.
+
+   SKILL 1  NAME  [         Python           ]  LEVEL [  80   ]
+            NOTE  [                                                        ]
+   SKILL 2  NAME  [       JAVASCRIPT             ]  LEVEL [  85   ]
+            NOTE  [                                                        ]
+   SKILL 3  NAME  [         Java           ]  LEVEL [  75   ]
+            NOTE  [                                                        ]
+   SKILL 4  NAME  [         C++           ]  LEVEL [ 70    ]                                                    ]
+
+   (NOTE is one short line shown when the skill is selected — what you
+    built with it, or where you reach for it. Leave blank to show none.
+    Delete unused SKILL lines; add more by copying a pair.)
+
+ -------------------------------------------------------------------- GROUP 2
+
+ GROUP NAME                [ Frontend                                      ]
+ ICON                      [ ▲                                             ]
+ BLURB                     [                                               ]
+   One line about how you think about interfaces.
+
+   SKILL 1  NAME  [       React             ]  LEVEL [  85   ]
+            NOTE  [                                                        ]
+   SKILL 2  NAME  [      Flutter              ]  LEVEL [  70   ]
+            NOTE  [                                                        ]
+   SKILL 3  NAME  [      Html              ]  LEVEL [  95   ]
+            NOTE  [                                                        ]
+   SKILL 4  NAME  [      CSS              ]  LEVEL [  90   ]
+            NOTE  [                                                        ]
+
+ -------------------------------------------------------------------- GROUP 3
+
+ GROUP NAME                [ Backend                                       ]
+ ICON                      [ ■                                             ]
+ BLURB                     [                                               ]
+   One line about what you value in a backend.
+
+   SKILL 1  NAME  [           Node.js         ]  LEVEL [  80   ]
+            NOTE  [                                                        ]
+   SKILL 2  NAME  [        Express.            ]  LEVEL [     ]
+            NOTE  [                                                        ]
+   SKILL 3  NAME  [                    ]  LEVEL [     ]
+            NOTE  [                                                        ]
+   SKILL 4  NAME  [                    ]  LEVEL [     ]
+            NOTE  [                                                        ]
+   SKILL 5  NAME  [                    ]  LEVEL [     ]
+            NOTE  [                                                        ]
+
+ -------------------------------------------------------------------- GROUP 4
+
+ GROUP NAME                [ Craft                                         ]
+ ICON                      [ ★                                             ]
+ BLURB                     [                                               ]
+   One line about the non-code skills that make you good to work with.
+
+   SKILL 1  NAME  [                    ]  LEVEL [     ]
+            NOTE  [                                                        ]
+   SKILL 2  NAME  [                    ]  LEVEL [     ]
+            NOTE  [                                                        ]
+   SKILL 3  NAME  [                    ]  LEVEL [     ]
+            NOTE  [                                                        ]
+   SKILL 4  NAME  [                    ]  LEVEL [     ]
+            NOTE  [                                                        ]
+   SKILL 5  NAME  [                    ]  LEVEL [     ]
+            NOTE  [                                                        ]
+
+===============================================================================
+ SECTION 4 — YOUR STORY   (REQUIRED)
+===============================================================================
+ Six chapters in the Story Theatre, split into two tabs:
+ three PROFESSIONAL and three PERSONAL. Each chapter has a timeline marker
+ ("WHEN"), a title, and one or two paragraphs.
+
+ Write these in your own voice, not a CV voice. One specific detail beats
+ three adjectives.
+
+ ----------------------------------------------- CHAPTER 1  (professional)
+
+ TITLE                     [ Where It Started                              ]
+ WHEN                      [                                               ]
+   A short marker, not a sentence. e.g. 2019  /  School  /  First year
+ PARAGRAPH 1               [                                               ]
+   How you got into building things — the first thing you made that worked,
+   and what it felt like when it did.
+ PARAGRAPH 2 (OPTIONAL)    [                                               ]
+
+ ----------------------------------------------- CHAPTER 2  (professional)
+
+ TITLE                     [ What I Do Now                                 ]
+ WHEN                      [ Today                                         ]
+ PARAGRAPH 1               [                                               ]
+   Your current role, course or focus; the kind of problems you take on;
+   the stack you are deepest in.
+ PARAGRAPH 2 (OPTIONAL)    [                                               ]
+
+ ----------------------------------------------- CHAPTER 3  (professional)
+
+ TITLE                     [ What I Am Chasing                             ]
+ WHEN                      [ Next                                          ]
+ PARAGRAPH 1               [                                               ]
+   What you want to work on next, and the kind of team you do your best
+   work in. If you are job hunting, say so plainly here.
+ PARAGRAPH 2 (OPTIONAL)    [                                               ]
+
+ ----------------------------------------------- CHAPTER 4  (personal)
+
+ TITLE                     [ Away From The Keyboard                        ]
+ WHEN                      [ Weekends                                      ]
+ PARAGRAPH 1               [                                               ]
+   What you do when you are not working. The hobby you will talk about for
+   too long if someone lets you.
+ PARAGRAPH 2 (OPTIONAL)    [                                               ]
+
+ ----------------------------------------------- CHAPTER 5  (personal)
+
+ TITLE                     [ How I Am Wired                                ]
+ WHEN                      [ Always                                        ]
+ PARAGRAPH 1               [                                               ]
+   How you work and think — the thing colleagues or classmates notice
+   first. Be honest rather than impressive.
+ PARAGRAPH 2 (OPTIONAL)    [                                               ]
+
+ ----------------------------------------------- CHAPTER 6  (personal)
+
+ TITLE                     [ Small Things I Like                           ]
+ WHEN                      [ Daily                                         ]
+ PARAGRAPH 1               [                                               ]
+   The low-stakes specifics: a drink, a game, an album, a city, a keyboard.
+   This is the section people actually remember.
+ PARAGRAPH 2 (OPTIONAL)    [                                               ]
+
+ EXTRA CHAPTER? (OPTIONAL) [                                               ]
+   If you want a seventh, write TITLE / WHEN / KIND (professional or
+   personal) / PARAGRAPHS here in the same shape.
+
+===============================================================================
+ SECTION 5 — PROJECTS   (REQUIRED)
+===============================================================================
+ Shown in Project Builds. Four blocks below; add or delete freely.
+ Put your strongest work first and mark it FEATURED.
+
+ ----------------------------------------------------------------- PROJECT 1
+ (REPEATABLE — copy a whole PROJECT block for a fifth, sixth, etc.)
+
+ TITLE                     [                                               ]
+ BLURB                     [                                               ]
+   Two sentences: what it does and who it is for. Lead with the problem it
+   solves, not the stack.
+ TECH                      [                                               ]
+   Comma-separated, 2-5 items. e.g. React, TypeScript, Node.js, PostgreSQL
+ GITHUB URL                [                                               ]
+   Full URL, or SKIP if the repo is private.
+ LIVE URL                  [                                               ]
+   Full URL, or SKIP if nothing is deployed.
+ HIGHLIGHT (OPTIONAL)      [                                               ]
+   One sentence on the hardest or most interesting part, and how you
+   solved it. This is the line that makes an engineer stop and read.
+ FEATURED?                 [ yes / no                                      ]
+   Exactly one project should be yes.
+
+ ----------------------------------------------------------------- PROJECT 2
+
+ TITLE                     [                                               ]
+ BLURB                     [                                               ]
+ TECH                      [                                               ]
+ GITHUB URL                [                                               ]
+ LIVE URL                  [                                               ]
+ HIGHLIGHT (OPTIONAL)      [                                               ]
+ FEATURED?                 [ no                                            ]
+
+ ----------------------------------------------------------------- PROJECT 3
+
+ TITLE                     [                                               ]
+ BLURB                     [                                               ]
+ TECH                      [                                               ]
+ GITHUB URL                [                                               ]
+ LIVE URL                  [                                               ]
+ HIGHLIGHT (OPTIONAL)      [                                               ]
+ FEATURED?                 [ no                                            ]
+
+ ----------------------------------------------------------------- PROJECT 4
+
+ TITLE                     [                                               ]
+ BLURB                     [                                               ]
+ TECH                      [                                               ]
+ GITHUB URL                [                                               ]
+ LIVE URL                  [                                               ]
+ HIGHLIGHT (OPTIONAL)      [                                               ]
+ FEATURED?                 [ no                                            ]
+
+ SHOULD THIS PORTFOLIO ITSELF BE LISTED AS A PROJECT?
+                           [ yes / no                                      ]
+   If yes, I will write the entry for you.
+
+===============================================================================
+ SECTION 6 — CONTACT   (REQUIRED)
+===============================================================================
+ Shown in the Contact Centre, each with a copy button where it makes sense.
+ Any line you SKIP is simply not shown.
+
+ EMAIL                     [                                               ]
+   The address you actually read.
+
+ PHONE                     [                                               ]
+   Shown publicly and dialable. SKIP if you would rather not publish it.
+   Include country code. e.g. +91 98765 43210
+
+ GITHUB URL                [                                               ]
+   e.g. https://github.com/sujalwarke
+
+ LINKEDIN URL              [                                               ]
+   e.g. https://linkedin.com/in/sujalwarke
+
+ BASED IN                  [                                               ]
+   Can be vaguer than Section 1 if you prefer. e.g. Pune, India (IST)
+
+ ---- OPTIONAL EXTRAS — fill only what you want shown ----
+
+ X / TWITTER URL           [                                               ]
+ INSTAGRAM URL             [                                               ]
+ PERSONAL SITE / BLOG URL  [                                               ]
+ RESUME / CV LINK          [                                               ]
+   A public Drive or PDF link. Say if you would rather I serve a PDF from
+   the site itself, and put the file in public/.
+ LEETCODE / CODEFORCES     [                                               ]
+ DISCORD / TELEGRAM        [                                               ]
+ ANYTHING ELSE             [                                               ]
+   Format: Label | Value | URL
+
+ AVAILABILITY LINE (OPTIONAL)
+                           [                                               ]
+   One line at the bottom of the contact panel. e.g. Open to internships
+   from Jan 2027 — email is fastest.
+
+===============================================================================
+ SECTION 7 — FLAVOUR TEXT   (OPTIONAL)
+===============================================================================
+ The writing scattered around the town. The current text works fine; this
+ is purely for personality. Leave blank to keep what is there.
+
+ WELCOME SIGN (just outside your house, 1-3 lines)
+   LINE 1                  [                                               ]
+   LINE 2                  [                                               ]
+   LINE 3                  [                                               ]
+
+ GUIDE NPC (the townsperson who explains the controls, 2-4 lines)
+   LINE 1                  [                                               ]
+   LINE 2                  [                                               ]
+   LINE 3                  [                                               ]
+   LINE 4                  [                                               ]
+   (Keep a mention of WASD / E / M somewhere in these — it is how a first
+    time visitor learns to play.)
+
+ SECRET SPOT (hidden behind the trees, 1-3 lines)
+   LINE 1                  [                                               ]
+   LINE 2                  [                                               ]
+   LINE 3                  [                                               ]
+
+===============================================================================
+ SECTION 8 — SITE METADATA   (OPTIONAL BUT RECOMMENDED)
+===============================================================================
+ What search engines, browser tabs and link previews show.
+
+ BROWSER TAB TITLE         [ Sujal Warke — Portfolio Quest                 ]
+
+ META DESCRIPTION          [                                               ]
+   One or two sentences, ~155 characters, written for a stranger who found
+   you on Google.
+
+ SOCIAL PREVIEW TITLE      [ Portfolio Quest                               ]
+   Shown when the link is pasted into WhatsApp, LinkedIn, Slack etc.
+
+ SOCIAL PREVIEW TEXT       [ A portfolio you play instead of scroll.       ]
+
+ SOCIAL PREVIEW IMAGE      [                                               ]
+   (OPTIONAL) A 1200x630 PNG for link previews. Put it in public/ and name
+   it here, or write MAKE ONE and I will generate a pixel-art card from the
+   game's own palette.
+
+ NO-JAVASCRIPT FALLBACK EMAIL
+                           [                                               ]
+   Shown to anyone with JS disabled. Normally the same as Section 6.
+
+ FAVICON                   [                                               ]
+   (OPTIONAL) Put a .png or .svg in public/ and name it, or write MAKE ONE.
+
+===============================================================================
+ SECTION 9 — DEPLOYMENT   (OPTIONAL)
+===============================================================================
+ Only needed when you want it live. Nothing here changes the site content.
+
+ WHERE WILL IT BE HOSTED?  [ Vercel / Netlify / GitHub Pages / other       ]
+   Vercel is already configured (vercel.json). The others need one small
+   change, which I will make if you pick one.
+
+ CUSTOM DOMAIN             [                                               ]
+   e.g. sujalwarke.dev — or SKIP to use the host's free subdomain.
+
+ GITHUB REPO FOR THIS SITE [                                               ]
+   The repo URL you want it pushed to. This folder is not a git repository
+   yet; say the word and I will initialise it and make the first commit.
+
+ ANALYTICS                 [ none / Vercel / Plausible / GA4               ]
+
+===============================================================================
+ SECTION 10 — LOOK AND FEEL   (OPTIONAL)
+===============================================================================
+ Leave all of this blank unless something bothers you. Answer in plain
+ words, not code — I will make the change.
+
+ COLOUR SCHEME             [                                               ]
+   The whole town is retinted from one palette file. e.g. "cooler, more
+   blue", "warmer autumn greens", "Game Boy four-shade green".
+
+ CHARACTER LOOK            [                                               ]
+   Hair colour, shirt colour, glasses, anything you want to match you.
+
+ MUSIC AND SOUND           [ on by default / muted by default              ]
+
+ WALK SPEED / FEEL         [                                               ]
+   e.g. "a bit faster", "running should be quicker". Fine as is for most.
+
+ TOWN LAYOUT               [                                               ]
+   Want a building renamed or moved? e.g. "call it Lab instead of Skill
+   Centre", "put Projects nearer the house".
+
+ ANYTHING YOU WANT REMOVED [                                               ]
+   e.g. the hidden badge, the minimap, the phone number, the personal tab.
+
+===============================================================================
+ SECTION 11 — ANYTHING ELSE
+===============================================================================
+
+ NOTES FOR ME              [                                               ]
+   Anything that did not fit above: an audience you are aiming at, a job
+   description you want this pointed at, a deadline, a thing you dislike
+   about the current version.
+
+===============================================================================
+ END OF FORM — save the file and tell me you are done.
+===============================================================================

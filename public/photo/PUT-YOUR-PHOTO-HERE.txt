@@ -1,0 +1,14 @@
+Save your photo in this folder as:
+
+    me.jpg
+
+That is the only step. The frame on the wall of your house in the game
+reads /photo/me.jpg, and until the file exists it shows a short note
+telling you this instead of a broken image.
+
+A square-ish image works best — the frame centre-crops to a square, so a
+very wide photo will lose its edges. Anything from 400x400 upwards is
+plenty; the frame displays at 288px.
+
+If you would rather use a different filename or a .png, change
+`photo.src` in src/content/portfolio.ts to match.
