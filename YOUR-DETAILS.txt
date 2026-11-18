@@ -128,9 +128,9 @@
 
    SKILL 1  NAME  [           Node.js         ]  LEVEL [  80   ]
             NOTE  [                                                        ]
-   SKILL 2  NAME  [        Express.            ]  LEVEL [     ]
+   SKILL 2  NAME  [        Express.Js            ]  LEVEL [  75   ]
             NOTE  [                                                        ]
-   SKILL 3  NAME  [                    ]  LEVEL [     ]
+   SKILL 3  NAME  [ FastAPI                    ]  LEVEL [  75   ]
             NOTE  [                                                        ]
    SKILL 4  NAME  [                    ]  LEVEL [     ]
             NOTE  [                                                        ]
