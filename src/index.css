@@ -259,3 +259,60 @@ canvas {
     animation-duration: 1ms;
   }
 }
+
+/* ---------------------------------------------------------------------------
+   The CV page (plain mode)
+
+   The language table needs real cell borders to stay readable as a grid, and
+   the whole page needs to survive Ctrl+P: a recruiter who prints the page
+   should get the document, not a dark rectangle with two dead buttons on it.
+   --------------------------------------------------------------------------- */
+
+.th-cv {
+  border: 2px solid var(--color-ink);
+  background: var(--color-paper2);
+  padding: 0.5rem 0.625rem;
+  font-family: 'Press Start 2P', monospace;
+  font-size: 7px;
+  line-height: 1.6;
+  letter-spacing: 0.08em;
+  color: var(--color-ink);
+}
+
+.td-cv {
+  border: 2px solid var(--color-ink);
+  padding: 0.5rem 0.625rem;
+  font-size: 0.875rem;
+  color: var(--color-ink2);
+}
+
+@media print {
+  .plain-cv {
+    position: static;
+    overflow: visible;
+    background: #fff;
+    padding: 0;
+  }
+
+  .plain-cv .pixel-panel {
+    border: none;
+    box-shadow: none;
+    background: #fff;
+    padding: 0 0 1rem;
+    margin-top: 0;
+    break-inside: avoid;
+  }
+
+  .plain-cv-actions {
+    display: none;
+  }
+
+  .plain-cv a {
+    color: var(--color-ink);
+    text-decoration: none;
+  }
+
+  .plain-cv article {
+    break-inside: avoid;
+  }
+}

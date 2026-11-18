@@ -97,14 +97,14 @@ export function HeroScreen({ onExplore, onPlainMode }: Props) {
         {/*
           An honest way out for anyone who cannot or would rather not play:
           a screen-reader user, a keyboard-only visitor, or a recruiter with
-          four minutes. The same content, as a page.
+          four minutes. The CV as a page, with the PDF one button away.
         */}
         <button
           type="button"
           onClick={onPlainMode}
           className="font-pixel text-[9px] text-ink underline decoration-2 underline-offset-4 hover:text-paper"
         >
-          or read it as a plain page
+          or read my CV as a page
         </button>
       </div>
     </div>
